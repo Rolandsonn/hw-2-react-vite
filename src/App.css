@@ -1,0 +1,39 @@
+.app {
+  display: grid;
+  grid-template-rows: 50px auto 30px;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul a.activeLink {
+  color: tomato;
+}
+.wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.btn-create {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(48, 135, 193);
+}
+.delete-btn {
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 3px 10px;
+  background-color: tomato;
+  color: #fff;
+}
